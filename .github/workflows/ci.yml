@@ -15,7 +15,7 @@ jobs:
       matrix:
         include:
           - os: self-hosted
-            release: latest
+            release: R2024a
             products: Symbolic_Math_Toolbox
 
     steps:
