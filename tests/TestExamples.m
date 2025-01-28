@@ -36,7 +36,7 @@ classdef TestExamples < matlab.unittest.TestCase
 
         function testLeapYear(testCase)
             % Create leap year date of March 1st, 2020
-            dateStr = "03/01/2020";
+            dateStr = "03/01/202";
 
             % Calculate expected result
             dt = datetime(dateStr,"Format","MM/dd/uuuu");
