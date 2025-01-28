@@ -32,7 +32,7 @@ classdef TestExamples1 < matlab.unittest.TestCase
 
             % Verify that the two are equal
             testCase.verifyEqual(doyActual,doyExpected)
-            pause(5)
+            pause(15)
         end
 
         function testLeapYear(testCase)
