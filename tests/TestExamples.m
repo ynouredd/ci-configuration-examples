@@ -47,6 +47,7 @@ classdef TestExamples < matlab.unittest.TestCase
 
             % Verify that the two are equal
             testCase.verifyEqual(doyActual,doyExpected)
+            testCase.verifyEqual(1,2)
         end
 
         function testInvalidDateFormat(testCase)
