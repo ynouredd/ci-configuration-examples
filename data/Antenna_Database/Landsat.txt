@@ -1,0 +1,5 @@
+Satellite.Name = 'Landsat 8';
+Satellite.Frequency = 8.4e9; % in Hz
+Satellite.Power = 100; % in Watts
+Satellite.DishDiameter = 2.4; % in meters
+Satellite.Efficiency = 0.65;

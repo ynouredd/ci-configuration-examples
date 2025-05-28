@@ -1,0 +1,5 @@
+Satellite.Name = 'International Space Station';
+Satellite.Frequency = 2.401e9; % in Hz
+Satellite.Power = 10; % in Watts
+Satellite.DishDiameter = 2.2; % in meters
+Satellite.Efficiency = 0.6;

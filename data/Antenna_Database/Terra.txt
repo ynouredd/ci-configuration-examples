@@ -1,0 +1,5 @@
+Satellite.Name = 'Terra (EOS AM-1)';
+Satellite.Frequency = 8.2e9; % in Hz
+Satellite.Power = 50; % in Watts
+Satellite.DishDiameter = 1.5; % in meters
+Satellite.Efficiency = 0.6;

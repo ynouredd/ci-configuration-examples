@@ -1,0 +1,5 @@
+Satellite.Name = 'Hubble Space Telescope';
+Satellite.Frequency = 2.25e9; % in Hz
+Satellite.Power = 2; % in Watts
+Satellite.DishDiameter = 2.4; % in meters
+Satellite.Efficiency = 0.55;

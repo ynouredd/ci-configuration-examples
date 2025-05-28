@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project MetadataType="monolithic">
+    <Categories Location="Root">
+        <Category Location="FileClassCategory">
+            <Info DataType="None" Name="Classification" ReadOnly="1" SingleValued="1"/>
+            <Label Location="a6dce261-4269-4909-83d6-0de95d6c26d9">
+                <Info Name="Data" ReadOnly="WRITABLE"/>
+            </Label>
+            <Label Location="artifact">
+                <Info Name="Artifact" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="c020c855-c72f-4cf3-9886-713862c992a6">
+                <Info Name="Design - Non-MATLAB" ReadOnly="WRITABLE"/>
+            </Label>
+            <Label Location="convenience">
+                <Info Name="Convenience" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="derived">
+                <Info Name="Derived" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="design">
+                <Info Name="Design" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="none">
+                <Info Name="None" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="other">
+                <Info Name="Other" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="test">
+                <Info Name="Test" ReadOnly="READ_ONLY"/>
+            </Label>
+        </Category>
+    </Categories>
+    <Files Location="MLTestManagerCoverageSettings">
+        <Info autoOpenCoverage="false" coverageMode="STATEMENT" isCoverageEnabled="true" isGenCoverageEnabled="true"/>
+        <DIR_SIGNIFIER Location="1">
+            <Info/>
+        </DIR_SIGNIFIER>
+    </Files>
+    <Files Location="MLTestManagerTestSuites">
+        <Info/>
+        <DIR_SIGNIFIER Location="1">
+            <Info/>
+        </DIR_SIGNIFIER>
+    </Files>
+    <Files Location="Root">
+        <File Location="ReadMe.txt">
+            <Info/>
+        </File>
+        <File Location="clean">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="clean.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+        </File>
+        <File Location="data">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="SCcomponents">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="Satellite1.mat">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="a6dce261-4269-4909-83d6-0de95d6c26d9"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="Satellite2.mat">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="a6dce261-4269-4909-83d6-0de95d6c26d9"/>
+                        </Category>
+                    </Info>
+                </File>
+            </File>
+            <File Location="Antenna_Database">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+            </File>
+            <File Location="GroundStation_Database">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+            </File>
+        </File>
+        <File Location="examples">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="workflow1.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="workflow2.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="workflow3.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="workflow4.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+        </File>
+        <File Location="external">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="ReadMe.txt">
+                <Info/>
+            </File>
+            <File Location="src">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="AnomalyAddition">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="introduceDrift.m">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="design"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="introduceMissingData.m">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="design"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="introduceNoise.m">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="design"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="introduceSpikes.m">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="design"/>
+                            </Category>
+                        </Info>
+                    </File>
+                </File>
+                <File Location="OrbitParameterMethod.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="calcSMATA.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="gradientmethod.c">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="c020c855-c72f-4cf3-9886-713862c992a6"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="interpMethod.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="movingWindowMethod.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+            </File>
+            <File Location="test">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="GradientMethodTest.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="test"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="OrbitParameterTest.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="test"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="interpMethodTest.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="test"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="movingWindowTest.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="test"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="testdata">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="satellite1data.mat">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="a6dce261-4269-4909-83d6-0de95d6c26d9"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="satellite2data.mat">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="a6dce261-4269-4909-83d6-0de95d6c26d9"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="satellite3data.mat">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="a6dce261-4269-4909-83d6-0de95d6c26d9"/>
+                            </Category>
+                        </Info>
+                    </File>
+                </File>
+            </File>
+            <File Location="out">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+            </File>
+        </File>
+        <File Location="out">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="MexFiles">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+            </File>
+            <File Location="PFiles">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+            </File>
+        </File>
+        <File Location="src">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="AttitudeControl">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="attitudeControl.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="calculateNadirOrientation.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+            </File>
+            <File Location="Orbit">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="CoordinateTransformation">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="eciTolla.m">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="design"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="eci_to_ecef.c">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="c020c855-c72f-4cf3-9886-713862c992a6"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="geodeticToaer.m">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="design"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="gmst_mex.c">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="c020c855-c72f-4cf3-9886-713862c992a6"/>
+                            </Category>
+                        </Info>
+                    </File>
+                </File>
+                <File Location="OrbitalElements">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="calculateAOP.c">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="c020c855-c72f-4cf3-9886-713862c992a6"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="calculateEccentricity.c">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="c020c855-c72f-4cf3-9886-713862c992a6"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="calculateInc.c">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="c020c855-c72f-4cf3-9886-713862c992a6"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="calculateRAAN.c">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="c020c855-c72f-4cf3-9886-713862c992a6"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="calculateSMA.c">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="c020c855-c72f-4cf3-9886-713862c992a6"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="calculateTA.c">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="c020c855-c72f-4cf3-9886-713862c992a6"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="findOrbitalElements.m">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="design"/>
+                            </Category>
+                        </Info>
+                    </File>
+                </File>
+                <File Location="PropSat.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="SyncMoon.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="atmospheric_density.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="calculate_drag.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="propagateAboutEarth.c">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="c020c855-c72f-4cf3-9886-713862c992a6"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="propagateAboutMoon.c">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="c020c855-c72f-4cf3-9886-713862c992a6"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="satellite_position.c">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="c020c855-c72f-4cf3-9886-713862c992a6"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="sunLLAHist.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+            </File>
+            <File Location="Plots">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="PlotSunHist.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="PowerUsedPlot.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="VisualizeOrbit.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+            </File>
+            <File Location="Power">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="PowerGenerated.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="PowerUsed.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="VisibleToSun.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+            </File>
+            <File Location="Propulsion">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="AvailableDeltaV.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="RequiredDeltaV.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+            </File>
+            <File Location="Stats">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="SatVisibility.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="SatVisibilityHistory.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="calculatePeriod.c">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="c020c855-c72f-4cf3-9886-713862c992a6"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="findSignalToNoise.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+            </File>
+        </File>
+        <File Location="tests">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="System">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="AnomalyFindTest.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="test"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="CommunicationTest.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="test"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="OrbitalParameterTest.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="test"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="OverHorizonTest.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="test"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="PowerGenerationTest.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="test"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="testdata">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="CommunicationTest">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="Cont1Inertia1.mat">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="a6dce261-4269-4909-83d6-0de95d6c26d9"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="Cont1Inertia2.mat">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="a6dce261-4269-4909-83d6-0de95d6c26d9"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="Cont2Inertia1.mat">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="a6dce261-4269-4909-83d6-0de95d6c26d9"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="Cont2Inertia2.mat">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="a6dce261-4269-4909-83d6-0de95d6c26d9"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="ExpEbNo.mat">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="a6dce261-4269-4909-83d6-0de95d6c26d9"/>
+                                </Category>
+                            </Info>
+                        </File>
+                    </File>
+                    <File Location="OrbitalParameterTest">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="Trajectory1.mat">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="a6dce261-4269-4909-83d6-0de95d6c26d9"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="Trajectory2.mat">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="a6dce261-4269-4909-83d6-0de95d6c26d9"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="Trajectory3.mat">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="a6dce261-4269-4909-83d6-0de95d6c26d9"/>
+                                </Category>
+                            </Info>
+                        </File>
+                    </File>
+                </File>
+            </File>
+            <File Location="Unit">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="Orbits">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="AOPTest.m">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="test"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="ECCtest.m">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="test"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="INCtest.m">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="test"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="RAANtest.m">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="test"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="SMAtest.m">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="test"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="TAtest.m">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="test"/>
+                            </Category>
+                        </Info>
+                    </File>
+                </File>
+                <File Location="Power">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="PowerGeneratedTest.m">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="test"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="PowerUsedTest.m">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="test"/>
+                            </Category>
+                        </Info>
+                    </File>
+                </File>
+            </File>
+        </File>
+    </Files>
+    <Info Location="ProjectData">
+        <Info Name="Space Mission"/>
+    </Info>
+    <ProjectPath Location="Root">
+        <Reference Location="00a621cc-780c-4785-a938-a9db750dfcc7">
+            <Info Ref="external/src/AnomalyAddition" Type="Relative"/>
+        </Reference>
+        <Reference Location="0fc184c3-97ff-410c-8810-92993b2a1804">
+            <Info Ref="derived" Type="Relative"/>
+        </Reference>
+        <Reference Location="124d1d61-c6a0-4aa7-8c5e-d3970a0c8e5b">
+            <Info Ref="tests/System/testdata/CommunicationTest" Type="Relative"/>
+        </Reference>
+        <Reference Location="1d50973a-ad8d-46f5-aad0-94f0fead5c8f">
+            <Info Ref="tests/Unit/Power" Type="Relative"/>
+        </Reference>
+        <Reference Location="324943e8-98b7-4edf-a961-c2eda1c96d9e">
+            <Info Ref="tests/Unit" Type="Relative"/>
+        </Reference>
+        <Reference Location="376d1a21-91c9-4688-8481-270fa23091af">
+            <Info Ref="data/GroundStation_Database" Type="Relative"/>
+        </Reference>
+        <Reference Location="60623616-9c56-4253-a208-51cb42c2195e">
+            <Info Ref="out" Type="Relative"/>
+        </Reference>
+        <Reference Location="6b18c664-37fc-4f52-850d-8326ec5ca4d4">
+            <Info Ref="tests/System/testdata" Type="Relative"/>
+        </Reference>
+        <Reference Location="6ff82fca-5a63-4835-9bc7-054a9595feee">
+            <Info Ref="derived/mtestmanager" Type="Relative"/>
+        </Reference>
+        <Reference Location="74b49b00-1ba6-4a8e-ab5e-02e3acf79a82">
+            <Info Ref="tests/Unit/Orbits" Type="Relative"/>
+        </Reference>
+        <Reference Location="855ac040-de44-4ef4-ad49-61bd861c0f10">
+            <Info Ref="external/test" Type="Relative"/>
+        </Reference>
+        <Reference Location="9468ae28-a18b-40e9-8833-4e28d2af5d95">
+            <Info Ref="out/MexFiles" Type="Relative"/>
+        </Reference>
+        <Reference Location="9bf01371-88c0-43fa-9ec6-000f8597a959">
+            <Info Ref="external" Type="Relative"/>
+        </Reference>
+        <Reference Location="9bf7abd6-1737-4c31-95f5-4f865d6cefaa">
+            <Info Ref="external/.buildtool" Type="Relative"/>
+        </Reference>
+        <Reference Location="a423c03f-b35e-40b5-b62c-f2d0094ac8ad">
+            <Info Ref="data" Type="Relative"/>
+        </Reference>
+        <Reference Location="a56e31b0-f312-4346-95ad-382818eaba59">
+            <Info Ref="external/out" Type="Relative"/>
+        </Reference>
+        <Reference Location="ace14198-0185-451c-b5c8-29d70eb4cb1e">
+            <Info Ref=".buildtool" Type="Relative"/>
+        </Reference>
+        <Reference Location="ba550c1e-fa91-4332-b5f3-d6bf5a4ac01a">
+            <Info Ref="tests/System" Type="Relative"/>
+        </Reference>
+        <Reference Location="c08d81b4-b2f6-48bf-b914-1cf0dea710a7">
+            <Info Ref="tests" Type="Relative"/>
+        </Reference>
+        <Reference Location="c0b7da29-832e-4229-9bee-99acbefe95b7">
+            <Info Ref="examples" Type="Relative"/>
+        </Reference>
+        <Reference Location="c1b4e7b8-c325-4523-8037-c81264058176">
+            <Info Ref="external/test/testdata" Type="Relative"/>
+        </Reference>
+        <Reference Location="c4bd022a-6841-46d7-9b91-86d491e9512b">
+            <Info Ref="clean" Type="Relative"/>
+        </Reference>
+        <Reference Location="d63b6c2b-e739-4403-92cb-47e0f83b4325">
+            <Info Ref="out/PFiles" Type="Relative"/>
+        </Reference>
+        <Reference Location="dd68f758-f862-4731-8494-d6a95865407d">
+            <Info Ref="external/src" Type="Relative"/>
+        </Reference>
+        <Reference Location="ead66df8-5828-4303-8d4e-675bfd6db2e1">
+            <Info Ref="" Type="Relative"/>
+        </Reference>
+        <Reference Location="f072b2ea-5ae0-4518-8f30-38935623b108">
+            <Info Ref="tests/System/testdata/OrbitalParameterTest" Type="Relative"/>
+        </Reference>
+        <Reference Location="f92d76a6-26b3-46bf-8605-42fbc773c67f">
+            <Info Ref="data/SCcomponents" Type="Relative"/>
+        </Reference>
+        <Reference Location="fb4e0aca-4624-4bf3-87d3-232dc9a45266">
+            <Info Ref="data/Antenna_Database" Type="Relative"/>
+        </Reference>
+    </ProjectPath>
+</project>

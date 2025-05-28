@@ -1,0 +1,5 @@
+Satellite.Name = 'Sentinel-1A';
+Satellite.Frequency = 5.405e9; % in Hz
+Satellite.Power = 60; % in Watts
+Satellite.DishDiameter = 12; % in meters (SAR antenna)
+Satellite.Efficiency = 0.7;
